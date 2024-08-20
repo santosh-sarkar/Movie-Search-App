@@ -46,4 +46,5 @@ searchBtn.addEventListener('click',()=>{
     if (searchInput.value){
        fetchMovie(searchInput.value)
     }
+    searchInput.value=""
 })
